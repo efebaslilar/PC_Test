@@ -42,7 +42,7 @@ foreach (var fileName in filesName)
 testsw.Stop();
 Console.WriteLine($"Dosya yazma Testi bitti Süre: {testsw.Elapsed}");
 
-testsw.Start();
+testsw.Restart();
 Console.WriteLine("Pi Sayısı Hesaplama Başladı.");
 
 double pi = 0.0;
